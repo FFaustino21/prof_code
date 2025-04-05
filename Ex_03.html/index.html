@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Dados do paciente</legend>
+            Nome do paciente: <input type="text" name="nome"><br>
+            Registro Hospitalar: <input type="text" name="registro"><br>
+            Data de inclusão: <input type="date"  name="inclusão"><br>
+            Data de nascimento <input type="date" name="datanasc"><br>
+            E-mail: <input type="email" name="email"><br>
+            Gênero:<br>
+            <label for="g1">
+            <input type="radio" name="genero" value="1" id="g1">Mascullino<br>
+        </label>
+        <label for="g2">
+            <input type="radio" name="genero" value="2" id="g2">Feminino<br>
+            </label><br>
+            Raça declarada:<br>
+            <select name="Raça">
+                <option value="Branca">Branca</option>
+                <option value="Negra">Negra</option>
+                <option value="Parda">Parda</option>
+                <option value="Amarela">Amarela</option>
+                <option value="indigena">indigena</option>
+                <option value="Desconhecida">Desconhecida</option>
+            </select>
+            <br>
+            Como ficou sabendo do estudo:<br>
+            <input type="checkbox" name="estudo" value="convidado">convidado
+            <input type="checkbox" name="estudo" value="Internet">Internet
+            <input type="checkbox" name="estudo" value="Amigos">Amigos
+            <input type="checkbox" name="estudo" value="familiares">familiares
+            <input type="checkbox" name="estudo" value="Outros">Outros
+            <br>
+            <button type="submit">Enviar</button>
+
+
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
